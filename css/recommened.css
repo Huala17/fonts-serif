@@ -1,0 +1,201 @@
+/* a */
+a{
+    text-decoration: none;
+    color: #fff;
+}
+/* nav */
+nav{
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+    z-index: 99;
+}
+.navBox{
+    height: 80px;
+    position: relative;
+    padding: 0 15vw;
+    box-shadow: 0 2px 3px #00000099;
+}
+.logoBox_nav>a{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 16vw;
+    transform: translateY(-50%);
+}
+.logoItem_nav{
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+}
+.logoItem1_nav{
+    background-image: url(../image/logo_gif\(字\).gif);
+}
+.logoItem2_nav{
+    background-image: url(../image/logo_gif\(選\).gif);
+}
+.logoItem3_nav{
+    background-image: url(../image/logo_gif\(集\).gif);
+}
+.menuBox_nav{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 16vw;
+}
+.menuItem_nav{
+    position: relative;
+    margin-left: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    line-height: 40px;
+}
+.itemBox_nav>ul{
+    width: 80%;
+    list-style: none;
+    text-align: center;
+    line-height: 40px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    display: none;
+    color: #fff;
+    text-shadow: #333 1px 1px 3px;
+}
+.itemBox_nav:hover .itemUl_nav{
+    display: block;
+}
+.itemUl_nav>li:hover{
+    border-bottom: #fff solid 3px;
+}
+
+/* shelf */
+.shelf{
+    margin: 0 auto;
+    padding: 180px 15vw 80px 15vw;
+    color: #fff;
+    background-color: #333;
+}
+.title_shelf{
+    font-size: 60px;
+    font-weight: 600;
+}
+.titleSub_shelf{
+    font-size: 16px;
+    margin-top: 10px;
+}
+.shelfSub{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+.shelfSub_sub{
+    position: relative;
+}
+.bgImg{
+    position: absolute;
+}
+.bgImg_1{
+    background-image: url(../image/推薦/字型公司@3x.png);
+    width: 272px;
+    height: 2064px;
+    top: -30px;
+    left: -120px;
+    z-index: 1;
+}
+.bgImg_2{
+    background-image: url(../image/推薦/社群@3x.png);
+    width: 252px;
+    height: 782px;
+    top: -30px;
+    left: -120px;
+    z-index: 1;
+}
+.left_shelf{
+    margin-right: 300px;
+}
+.shelfBox{
+    margin-bottom: 100px;
+    position: relative;
+    z-index: 9;
+}
+.name_shelf{
+    font-size: 40px;
+    font-weight: 600;
+}
+.logo_shelf{
+    width: 320px;
+    height: 320px;
+    border: 10px solid #888;
+    background-color: #333;
+    margin: 30px 0 30px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logoimg_shelf{
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+.logoimg1_shelf{
+    background-image: url(../image/推薦/jf-logo@3x.png);
+}
+.logoimg2_shelf{
+    background-image: url(../image/推薦/Group\ 201@3x.png);
+    width: 320px;
+    height: 97px;
+}
+.logoimg3_shelf{
+    background-image: url(../image/推薦/Image\ 3@3x.png);
+    width: 320px;
+    height: 158px;
+}
+.logoimg4_shelf{
+    background-image: url(../image/推薦/Image\ 4@3x.png);
+}
+.logoimg5_shelf{
+    background-image: url(../image/推薦/65033407_2201034196639498_4512147097620840448_n@3x.png);
+    width: 320px;
+    height: 165px;
+}
+.text_shelf{
+    width: 320px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+/* footer */
+footer{
+    text-align: center;
+    background-image: url("https://www.transparenttextures.com/patterns/lined-paper-2.png");
+    background-color: #515151;
+    padding: 3vw 0;
+    color: #fff;
+    font-size: 18px;
+}
+.logoBox_footer{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.logoItem_footer{
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+}
+.logoItem1_footer{
+    background-image: url(../image/推薦/logo_gif\(字\)_w.gif);
+}
+.logoItem2_footer{
+    background-image: url(../image/推薦/logo_gif\(選\)_w.gif);
+}
+.logoItem3_footer{
+    background-image: url(../image/推薦/logo_gif\(集\)_w.gif);
+}
+.text_footer{
+    font-size: 25px;
+    margin-bottom: 20px;
+}

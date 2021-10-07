@@ -1,0 +1,13 @@
+$(function(){
+    $(".mvBox").hover(function(){
+        $(".item_team1_mv").animate({opacity:1},1000);
+        $(".item2_team2_mv").animate({},1000);
+        $(".item3_team3_mv").animate({},3000);
+        $(".item3_team4_mv").animate({},3000);
+    },function(){
+        $(".item1_team1_mv").animate({},3000);
+        $(".item2_team2_mv").animate({},3000);
+        $(".item3_team3_mv").animate({},3000);
+        $(".item3_team4_mv").animate({},3000);
+    })
+})

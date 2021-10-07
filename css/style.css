@@ -1,0 +1,288 @@
+/* a */
+a{
+    text-decoration: none;
+    color: #000;
+}
+/* nav */
+nav{
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+    z-index: 99;
+}
+.navBox{
+    height: 80px;
+    position: relative;
+    padding: 0 15vw;
+    box-shadow: 0 2px 3px #00000099;
+}
+.logoBox_nav>a{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 16vw;
+    transform: translateY(-50%);
+}
+.logoItem_nav{
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+}
+.logoItem1_nav{
+    background-image: url(../image/logo_gif\(字\).gif);
+}
+.logoItem2_nav{
+    background-image: url(../image/logo_gif\(選\).gif);
+}
+.logoItem3_nav{
+    background-image: url(../image/logo_gif\(集\).gif);
+}
+.menuBox_nav{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 16vw;
+}
+.menuItem_nav{
+    position: relative;
+    margin-left: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    line-height: 40px;
+}
+.itemBox_nav>ul{
+    width: 80%;
+    list-style: none;
+    text-align: center;
+    line-height: 40px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    display: none;
+    color: #000;
+    text-shadow: #fff 1px 1px 3px;
+    background-color: #ffffff99;
+}
+.itemBox_nav:hover .itemUl_nav{
+    display: block;
+}
+.itemUl_nav>li:hover{
+    border-bottom: #ccc solid 3px;
+}
+/* article_1 */
+.artBox{
+    height: 95vh;
+    position: relative;
+    top: 80px;
+    font-family: 'Noto Serif TC', serif;
+    background-image: url("https://www.transparenttextures.com/patterns/lined-paper-2.png");
+}
+.textItem_art{
+    font-size: 26vw;
+    position: absolute;
+    z-index: 97;
+}
+.textItem1_art{
+    left: 35%;
+    top: 35%;
+    transform: translate(-50%,-50%);
+}
+.textItem2_art{
+    right: 35%;
+    top: 50%;
+    transform: translate(50%,-50%);
+}
+.artItem_art{
+    width: 35vw;
+    min-width: 35vw;
+    font-size: 20px;
+    line-height: 40px;
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 98;
+    background-image: url("https://www.transparenttextures.com/patterns/lined-paper-2.png");
+    background-color: #fff;
+    padding: 20px;
+    display: none;
+}
+/* section1 */
+section{
+    padding: 10vw 0;
+}
+.classBox{
+    width: 70%;
+    padding-left: 50px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.bottomBox_sec{
+    width: 22.1vw;
+    height: 19.3vw;
+    margin: 5vw;
+    position: relative;
+}
+.backImg_sec{
+    width: 19.5vw;
+    height: 10.4vw;
+    position: absolute;
+    top: -2.6vw;
+    left: -2.6vw;
+    z-index: 88;
+    background-size: cover;
+}
+.backImg1_sec{
+    background-image: url(../image/明體@3x.png);
+}
+.backImg2_sec{
+    background-image: url(../image/黑體@3x.png);
+}
+.backImg3_sec{
+    background-image: url(../image/圓體@3x.png);
+}
+.backImg4_sec{
+    background-image: url(../image/其他@3x.png);
+}
+.middleBox_sec{
+    width: 20.1vw;
+    height: 16.9vw;
+    background-color: #ffffffe9;
+    box-shadow: 2px 2px 5px #eee;
+    position: relative;
+    z-index: 89;
+}
+.upperBox_sec{
+    width: 13.3vw;
+    height: 11.1vw;
+    border-bottom: 3px solid #999;
+    border-right: 3px solid #999;
+    background-color: #fff;
+    position: relative;
+    top: 2.6vw;
+    left: 4.2vw;
+}
+
+.titleImg_sec{
+    width: 4.4vw;
+    height: 14.2vw;
+    position: absolute;
+    top: -3.4vw;
+    left: -3.1vw;
+    background-size: cover;
+}
+.titleImg1_sec{
+    background-image: url(../image/Group\ 33@3x.png);
+    width: 4.9vw;
+}
+.titleImg2_sec{
+    background-image: url(../image/Group\ 77@3x.png);
+}
+.titleImg3_sec{
+    background-image: url(../image/Group\ 78@3x.png);
+}
+.titleImg4_sec{
+    background-image: url(../image/Group\ 80@3x.png);
+}
+.item1_sec{
+    position: absolute;
+    width: 8.9vw;
+    height: 9.3vw;
+    left: 55%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background-size: cover;
+}
+.item1-1_sec{
+    background-image: url(../image/Group\ 209@3x.png);
+}
+.item1-2_sec{
+    background-image: url(../image/Group\ 210@3x.png);
+}
+.item1-3_sec{
+    background-image: url(../image/Group\ 211@3x.png);
+}
+.item1-4_sec{
+    background-image: url(../image/Group\ 212@3x.png);
+}
+.text_sec{
+    width:3vw;
+    height: 1.2vw;
+    position: absolute;
+    bottom: 5%;
+    right: 15%;
+    cursor: pointer;
+    background-size: cover;
+}
+.text1_sec{
+    background-image: url(../image/更多..@3x.png);
+}
+.text2_sec{
+    background-image: url(../image/更多..-1@3x.png);
+}
+.text3_sec{
+    background-image: url(../image/更多..-3@3x.png);
+}
+.text4_sec{
+    background-image: url(../image/更多..-2@3x.png);
+    width: 3.6vw;
+}
+
+/* footer */
+footer{
+    text-align: center;
+    background-image: url("https://www.transparenttextures.com/patterns/lined-paper-2.png");
+    padding: 3vw 0;
+    font-size: 18px;
+}
+.logoBox_footer{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.logoItem_footer{
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+}
+.logoItem1_footer{
+    background-image: url(../image/logo_gif\(字\).gif);
+}
+.logoItem2_footer{
+    background-image: url(../image/logo_gif\(選\).gif);
+}
+.logoItem3_footer{
+    background-image: url(../image/logo_gif\(集\).gif);
+}
+.text_footer{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+@media(max-width:1680px){
+    .artItem_art{
+        width: 35vw;
+        min-width: 35vw;
+        font-size: 18px;
+        line-height: 40px;
+        position: absolute;
+        top: 100px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+@media(max-width:1440px){
+    .artItem_art{
+        width: 60vw;
+        min-width: 60vw;
+        font-size: 18px;
+        line-height: 40px;
+        position: absolute;
+        top: 100px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}

@@ -1,0 +1,445 @@
+/* a */
+a{
+    text-decoration: none;
+    color: #000;
+}
+/* nav */
+nav{
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+    z-index: 99;
+}
+.navBox{
+    height: 80px;
+    position: relative;
+    padding: 0 15vw;
+    box-shadow: 0 2px 3px #00000099;
+}
+.logoBox_nav>a{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 16vw;
+    transform: translateY(-50%);
+}
+.logoItem_nav{
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+}
+.logoItem1_nav{
+    background-image: url(../image/logo_gif\(字\).gif);
+}
+.logoItem2_nav{
+    background-image: url(../image/logo_gif\(選\).gif);
+}
+.logoItem3_nav{
+    background-image: url(../image/logo_gif\(集\).gif);
+}
+.menuBox_nav{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 16vw;
+}
+.menuItem_nav{
+    position: relative;
+    margin-left: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    line-height: 40px;
+}
+.itemBox_nav>ul{
+    width: 80%;
+    list-style: none;
+    text-align: center;
+    line-height: 40px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    display: none;
+    color: #000;
+    text-shadow: #fff 1px 1px 3px;
+    background-color: #ffffffaa;
+}
+.itemBox_nav:hover .itemUl_nav{
+    display: block;
+}
+.itemUl_nav>li:hover{
+    border-bottom: #ccc solid 3px;
+}
+/*section mv */
+.mvBox{
+    position: relative;
+    top: 80px;
+    left: 50%;
+    height: 90vh;
+    width: 70%;
+    overflow: hidden;
+    background-color: #fff;
+    transform: translateX(-50%);
+    margin-bottom: 80px;
+}
+.item_mv{
+    position: absolute;
+    background-size: cover;
+    transform: translate(-50%,-50%);
+}
+.item_team1_mv{
+    width: 15.6vw;
+    height: 22.6vw;
+    opacity: 0.25;
+    animation: 4s ease-in-out infinite bling;
+}
+@keyframes bling{
+    0%{
+        opacity: 0.25;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0.25;
+    }
+}
+.item_team2_mv{
+    width: 15.6vw;
+    height: 15.6vw;
+    opacity: 0.5;
+    animation: 3s ease-in-out infinite bling2;
+}
+@keyframes bling2{
+    0%{
+        opacity: 0.5;
+    }
+    20%{
+        opacity: 1;
+    }
+    60%{
+        opacity: 0.25;
+    }
+    80%{
+        opacity: 0.5;
+    }
+}
+.item_team3_mv{
+    width: 5.2vw;
+    height: 5.2vw;
+    opacity: 0.75;
+    animation: 3s ease-in-out infinite bling3;
+}
+@keyframes bling3{
+    0%{
+        opacity: 0.75;
+    }
+    20%{
+        opacity: 0.25;
+    }
+    600%{
+        opacity: 1;
+    }
+    80%{
+        opacity: 0.75;
+    }
+}
+.item_team4_mv{
+    width: 10.4vw;
+    height: 10.4vw;
+    animation: 3s ease-in-out infinite bling4;
+}
+@keyframes bling4{
+    0%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0.25;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.item1_mv{
+    background-image: url(../image/其他/異-0@3x.png);
+    left: 10%;
+    bottom: -35%;
+}
+.item2_mv{
+    background-image: url(../image/其他/異-1@3x.png);
+    top: -3%;
+    left: 5%;
+}
+.item3_mv{
+    background-image: url(../image/其他/異-2@3x.png);
+    height: 22.6vw;
+    top: 70%;
+    left: 75%;
+}
+.item4_mv{
+    background-image: url(../image/其他/異-3@3x.png);
+    top: 50%;
+    left: 95%;
+}
+.item5_mv{
+    background-image: url(../image/其他/異-4@3x.png);
+    top: 80%;
+    left: 40%;
+}
+.item6_mv{
+    background-image: url(../image/其他/異-5@3x.png);
+    top: 15%;
+    left: 20%;
+}
+.item7_mv{
+    background-image: url(../image/其他/異-6@3x.png);
+    top: 15%;
+    left: 50%;
+}
+.item8_mv{
+    background-image: url(../image/其他/異-7@3x.png);
+    top: 10%;
+    left: 90%;
+}
+.item9_mv{
+    background-image: url(../image/其他/異-8@3x.png);
+    height: 145px;
+    top: 60%;
+    left: 2%;
+}
+.item10_mv{
+    background-image: url(../image/其他/異-9@3x.png);
+    height: 15.6vw;
+    left: 15%;
+    top: 45%;
+}
+.item11_mv{
+    background-image: url(../image/其他/異-10@3x.png);
+    left: 95%;
+    top: 85%;
+}
+.item12_mv{
+    background-image: url(../image/其他/異-11@3x.png);
+    top: 0%;
+    left: 37%;
+}
+.item13_mv{
+    background-image: url(../image/其他/異-12@3x.png);
+    top: 85%;
+    left: 57%;
+}
+.item14_mv{
+    background-image: url(../image/其他/異-13@3x.png);
+    height: 132px;
+    top: 10%;
+    left: 80%;
+}
+.item15_mv{
+    background-image: url(../image/其他/異-14@3x.png);
+    top: 25%;
+    left: 5%;
+}
+.item16_mv{
+    background-image: url(../image/其他/異-15@3x.png);
+    top: 15%;
+    left: 70%;
+}
+.item17_mv{
+    background-image: url(../image/其他/異-16@3x.png);
+    top: 95%;
+    left: 80%;
+}
+.item18_mv{
+    background-image: url(../image/其他/異-17@3x.png);
+    top: 75%;
+    left: 25%;
+}
+.textBox_mv{
+    padding: 20px 30px;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%,-50%);
+    z-index: 89;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.textImg{
+    background-image: url(../image/黑體/黑體方正.png);
+    width: 516px;
+    height: 149px;
+}
+
+/*shelf*/
+.shelf{
+    margin-top: 10vw;
+}
+.shelfBox{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 15vw;
+    margin-bottom: 100px;
+}
+.img_shelf{
+    background-size: cover;
+    width: 31.5vw;
+    min-width: 302.5px;
+}
+.img_shelf_1{
+    background-image: url(../image/其他/清松2@3x.png);
+    height: 3.7vw;
+    min-height: 35.5px;
+}
+.img_shelf_2{
+    background-image: url(../image/其他/無心@3x.png);
+    height: 2.9vw;
+    min-height: 27.5px;
+}
+.img_shelf_3{
+    background-image: url(../image/其他/おつとめフォント@3x.png);
+    height: 3vw;
+    min-height: 30px;
+}
+.img_shelf_4{
+    background-image: url(../image/其他/青柳隸書@3x.png);
+    height: 2.9vw;
+    min-height: 27.5px;
+}
+.img_shelf_5{
+    background-image: url(../image/其他/莫大毛筆字體@3x.png);
+    height: 14.3vw;
+    min-height:137.5px;
+}
+.img_shelf_6{
+    background-image: url(../image/其他/チェックアンドU-Foフォント@3x.png);
+    height: 2.9vw;
+    min-height: 27.5px;
+}
+.img_shelf_7{
+    background-image: url(../image/其他/Dela\ Gothic\ One@3x.png);
+    height: 4.2vw;
+    min-height: 40px;
+    width: 29.4vw;
+}
+.img_shelf_8{
+    background-image: url(../image/其他/Potta\ One@3x.png);
+    height: 4.2vw;
+    min-height: 40px;
+}
+.img_shelf_9{
+    background-image: url(../image/其他/怨靈體@3x.png);
+    height: 3vw;
+    min-height: 28.5px;
+    width: 29.5vw;
+}
+.img_shelf_10{
+    background-image: url(../image/其他/RocknRoll\ One@3x.png);
+    height: 4.2vw;
+    min-height: 40px;
+}
+.img_shelf_11{
+    background-image: url(../image/其他/精品點陣體7x7@3x.png);
+    height: 2.9vw;
+    min-height: 28px;
+}
+.textBox_shelf{
+    width: 18vw;
+    min-width: 180px;
+    margin-top: 30px;
+}
+.cName_shelf{
+    font-size: 40px;
+    font-weight: 600;
+}
+.eName_shelf{
+    font-size: 18px;
+}
+.downloadBox_shelf{
+    display: flex;
+    height: 60px;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+    margin: 15px 0;
+    padding: 0 15px 0 30px;
+    font-size: 18px;
+}
+.text_shelf{
+    line-height: 30px;
+    letter-spacing: 2px;
+}
+.download_shelf{
+    font-weight: 600;
+    position: relative;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+.download_shelf::before{
+    content: "";
+    position: absolute;
+    right: 0;
+    top: -2px;
+    border: 2px solid #ccc;
+    border-bottom: #fff;
+    border-left: #fff;
+    width: 30%;
+    height: 15%;
+    transition: ease-out 0.3s;
+}
+.download_shelf:hover::before{
+    width: 100%;
+    height: 100%;
+}
+.download_shelf::after{
+    content: "";
+    position: absolute;
+    left: -2px;
+    bottom: 0;
+    border: 2px solid #ccc;
+    border-top: #fff;
+    border-right: #fff;
+    width: 30%;
+    height: 15%;
+    transition: ease-out 0.3s;
+}
+.download_shelf:hover::after{
+    width: 100%;
+    height: 100%;
+}
+.downloadSub_shelf{
+    width: 36px;
+    height: 20px;
+}
+
+/* footer */
+footer{
+    text-align: center;
+    background-image: url("https://www.transparenttextures.com/patterns/lined-paper-2.png");
+    padding: 3vw 0;
+    font-size: 18px;
+}
+.logoBox_footer{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.logoItem_footer{
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+}
+.logoItem1_footer{
+    background-image: url(../image/logo_gif\(字\).gif);
+}
+.logoItem2_footer{
+    background-image: url(../image/logo_gif\(選\).gif);
+}
+.logoItem3_footer{
+    background-image: url(../image/logo_gif\(集\).gif);
+}
+.text_footer{
+    font-size: 25px;
+    margin-bottom: 20px;
+}

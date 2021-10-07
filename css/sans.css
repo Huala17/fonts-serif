@@ -1,0 +1,342 @@
+/* a */
+a{
+    text-decoration: none;
+    color: #000;
+}
+/* nav */
+nav{
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+    z-index: 99;
+}
+.navBox{
+    height: 80px;
+    position: relative;
+    padding: 0 15vw;
+    box-shadow: 0 2px 3px #00000099;
+}
+.logoBox_nav>a{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 16vw;
+    transform: translateY(-50%);
+}
+.logoItem_nav{
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+}
+.logoItem1_nav{
+    background-image: url(../image/logo_gif\(字\).gif);
+}
+.logoItem2_nav{
+    background-image: url(../image/logo_gif\(選\).gif);
+}
+.logoItem3_nav{
+    background-image: url(../image/logo_gif\(集\).gif);
+}
+.menuBox_nav{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 16vw;
+}
+.menuItem_nav{
+    position: relative;
+    margin-left: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    line-height: 40px;
+}
+.itemBox_nav>ul{
+    width: 80%;
+    list-style: none;
+    text-align: center;
+    line-height: 40px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    display: none;
+    color: #000;
+    text-shadow: #fff 1px 1px 3px;
+    background-color: #ffffffaa;
+}
+.itemBox_nav:hover .itemUl_nav{
+    display: block;
+}
+.itemUl_nav>li:hover{
+    border-bottom: #ccc solid 3px;
+}
+/*section mv */
+.mvBox{
+    position: relative;
+    top: 80px;
+    left: 50%;
+    height: 95vh;
+    width: 70%;
+    overflow: hidden;
+    background-color: #fff;
+    transform: translateX(-50%);
+    margin-bottom: 80px;
+}
+.item_mv{
+    position: absolute;
+    background-size: cover;
+}
+.item1_mv{
+    background-image: url(../image/黑體/Group\ 139@3x.png);
+    width: 132vw;
+    height: 14.4vw;
+    top: 3vw;
+    left: 5vw;
+}
+.item2_mv{
+    background-image: url(../image/黑體/Intersection\ 25@3x.png);
+    width: 136.8vw;
+    height: 14.4vw;
+    top: 17.7vw;
+    left: -5vw;
+}
+.item3_mv{
+    background-image: url(../image/黑體/Intersection\ 24@3x.png);
+    top: 32.1vw;
+    width: 127vw;
+    height: 9.36vw;
+    left: -7vw;
+}
+.textBox_mv{
+    padding: 20px 30px;
+    position: absolute;
+    right: 0;
+    top: 40%;
+    transform: translateY(-50%);
+    z-index: 89;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.textImg{
+    background-image: url(../image/黑體/黑體方正.png);
+    width: 516px;
+    height: 149px;
+}
+
+/* scrollBox */
+.scrollBox{
+    height: 104vw;
+    position: relative;
+}
+.imgBox_sb{
+    position: relative;
+    width: 14.6vw;
+    height: 32.8vw;
+    top:20%;
+    left: 35%;
+    transform: translate(-50%,-50%);
+}
+.img1_sb{
+    background-image: url(../image/黑體/Subtraction\ 14@3x.png);
+    width: 14.9vw;
+    height: 32.7vw;
+    position: absolute;
+    background-size: cover;
+}
+.img2_sb{
+    background-image: url(../image/黑體/Intersection\ 27@3x.png);
+    width: 10.5vw;
+    height: 31.8vw;
+    position: absolute;
+    top: 0.78vw;
+    left: 2.71vw;
+    background-size: cover;
+}
+.textImg_sb{
+    position: absolute;
+}
+.textImg1_sb{
+    background-image: url(../image/黑體/黑體線條3x.png);
+    top: 22%;
+    left: 50%;
+    width: 20.9vw;
+    height: 10.6vw;
+    background-size: cover;
+}
+.textImg2_sb{
+    background-image: url(../image/黑體/黑體的特色3x.png);
+    top: 58%;
+    left: 50%;
+    width: 20.7vw;
+    height: 10.3vw;
+    background-size: cover;
+}
+
+/*shelf*/
+.shelfBox{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 15vw;
+    margin-bottom: 100px;
+}
+.img_shelf{
+    background-size: cover;
+    width: 31.5vw;
+    min-width: 302.5px;
+}
+.img_shelf_1{
+    background-image: url(../image/黑體/思源黑@3x.png);
+    height: 25vw;
+    min-height: 240px;
+}
+.img_shelf_2{
+    background-image: url(../image/黑體/源石黑@3x.png);
+    height: 15.9vw;
+    min-height: 157.5px;
+}
+.img_shelf_3{
+    background-image: url(../image/黑體/源樣黑@3x.png);
+    height: 15.9vw;
+    min-height: 157.5px;
+}
+.img_shelf_4{
+    background-image: url(../image/黑體/台北黑@3x.png);
+    height: 9.5vw;
+    min-height: 91.5px;
+}
+.img_shelf_5{
+    background-image: url(../image/黑體/獅尾麥腿黑@3x.png);
+    height: 22.2vw;
+    min-height:213.5px;
+}
+.img_shelf_6{
+    background-image: url(../image/黑體/源暎@3x.png);
+    height: 19.3vw;
+    min-height: 185px;
+}
+.img_shelf_7{
+    background-image: url(../image/黑體/未來@3x.png);
+    height: 37.5vw;
+    min-height: 720px;
+}
+.img_shelf_8{
+    background-image: url(../image/黑體/M+Fonts@3x.png);
+    height: 26.6vw;
+    min-height: 255.5px;
+}
+.img_shelf_9{
+    background-image: url(../image/黑體/せのびゴシック@3x.png);
+    height: 11.6vw;
+    min-height: 111.5px;
+}
+.img_shelf_10{
+    background-image: url(../image/黑體/鐵瓶@3x.png);
+    height: 3.2vw;
+    min-height: 31px;
+}
+.img_shelf_11{
+    background-image: url(../image/黑體/異世@3x.png);
+    height: 3.3vw;
+    min-height: 32px;
+}
+.textBox_shelf{
+    width: 18vw;
+    min-width: 180px;
+    margin-top: 30px;
+}
+.cName_shelf{
+    font-size: 40px;
+    font-weight: 600;
+}
+.eName_shelf{
+    font-size: 18px;
+}
+.downloadBox_shelf{
+    display: flex;
+    height: 60px;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+    margin: 15px 0;
+    padding: 0 15px 0 30px;
+    font-size: 18px;
+}
+.text_shelf{
+    line-height: 30px;
+    letter-spacing: 2px;
+}
+.download_shelf{
+    font-weight: 600;
+    position: relative;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+.download_shelf::before{
+    content: "";
+    position: absolute;
+    right: 0;
+    top: -2px;
+    border: 2px solid #ccc;
+    border-bottom: #fff;
+    border-left: #fff;
+    width: 30%;
+    height: 15%;
+    transition: ease-out 0.3s;
+}
+.download_shelf:hover::before{
+    width: 100%;
+    height: 100%;
+}
+.download_shelf::after{
+    content: "";
+    position: absolute;
+    left: -2px;
+    bottom: 0;
+    border: 2px solid #ccc;
+    border-top: #fff;
+    border-right: #fff;
+    width: 30%;
+    height: 15%;
+    transition: ease-out 0.3s;
+}
+.download_shelf:hover::after{
+    width: 100%;
+    height: 100%;
+}
+.downloadSub_shelf{
+    width: 36px;
+    height: 20px;
+}
+
+/* footer */
+footer{
+    text-align: center;
+    background-image: url("https://www.transparenttextures.com/patterns/lined-paper-2.png");
+    padding: 3vw 0;
+    font-size: 18px;
+}
+.logoBox_footer{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.logoItem_footer{
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+}
+.logoItem1_footer{
+    background-image: url(../image/logo_gif\(字\).gif);
+}
+.logoItem2_footer{
+    background-image: url(../image/logo_gif\(選\).gif);
+}
+.logoItem3_footer{
+    background-image: url(../image/logo_gif\(集\).gif);
+}
+.text_footer{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
